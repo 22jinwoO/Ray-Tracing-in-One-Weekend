@@ -1,0 +1,41 @@
+## Visual Studio / 빌드 산출물
+.vs/
+x64/
+x86/
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+## 컴파일 결과물
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.iobj
+*.ipdb
+*.tlog
+*.lastbuildstate
+*.log
+*.dll
+*.lib
+*.exp
+
+## CUDA 중간 산출물
+*.ptx
+*.cubin
+*.fatbin
+
+## 사용자 개인 설정 (내 PC에만 해당)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Windows
+Thumbs.db
+desktop.ini
+
+## 렌더링 결과 이미지 — 올리고 싶으면 이 줄들을 지우세요
+*.ppm
